@@ -1,0 +1,2 @@
+# eslint
+Shareable linting ruleset
