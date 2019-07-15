@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-superbalist",
+  "version": "1.0.0",
+  "description": "Shareable linting ruleset",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx eslint --print-config test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Superbalist/eslint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Superbalist/eslint/issues"
+  },
+  "homepage": "https://github.com/Superbalist/eslint#readme"
+}
