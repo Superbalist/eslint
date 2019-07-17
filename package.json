@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Shareable linting ruleset",
   "main": "index.js",
+  "files": [
+    "src/**/*",
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "npx eslint --print-config test/index.js"
   },
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Superbalist/eslint/issues"
   },
-  "homepage": "https://github.com/Superbalist/eslint#readme"
+  "homepage": "https://github.com/Superbalist/eslint#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
