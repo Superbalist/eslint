@@ -7,7 +7,7 @@ module.exports = {
     "eslint:recommended",
   ],
   "rules": {
-    "quote-props": ["warn","consistent-as-needed"],
+    "quote-props": ["warn", "consistent-as-needed"],
     "arrow-parens": 0,
     "generator-star-spacing": 0,
     "no-debugger": 0,
