@@ -24,3 +24,17 @@ For additional support, one could add more sections to the `extends` array. Sect
 
 _**These are only starting points and you will need to specify any additional properties dierctly in your eslintrc.json
 file at project level**_
+
+## async/await
+
+If you're using async (e.g. `it("should pass", async () => {`) you'll get the following error:
+
+`Parsing error: Unexpected token =>`
+
+Add the following to your `.eslintrc.json`:
+
+```
+"parserOptions": {
+	"ecmaVersion": 2017
+}
+```
